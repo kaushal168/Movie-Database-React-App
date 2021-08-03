@@ -29,6 +29,7 @@ const AppProvider = ({ children }) => {
     }
     if(query === ''){
       setMovies([])
+      setError({ show: false })
     }
   }
 
